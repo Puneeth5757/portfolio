@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:ital,wght@1,400;1,700&display=swap');
+
+body{
+    background-color: white;
+    /* background-image: url(background.png); */
+}
+img {
+    border-radius: 50%;
+    border: 3px solid red
+  }
+.card:hover{
+    transform: translateY(-10px);
+}
+.card{
+    background-color: hsl(0, 0%, 94%);
+    transition: all .5s ease-in-out;
+    box-shadow: 0px 5px 5px 5px rgba(0, 0, 0, 0.562);
+    padding-bottom: 5px;  
+}
+#card-2{
+    transition: all .5s ease-in-out;  
+    background-color: rgba(244, 238, 231, 0.979);
+}
